@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px 50px;
+}
+section{
+    margin: 50px 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.name-color{
+    color:#E2452B;
+}
+#about-area{
+    display: flex;
+}
+.half-width{
+    width:50%;
+}
+.about-img img{
+    width:100%;
+}
+.learn-more-btn{
+    text-decoration:none;
+    background-color:#E2452B;
+    color:#fff;
+    padding:10px 30px;
+    border-radius:10px;
+}
+.mission-date{
+    color:#F0BC19;
+}
+#about-my-mission h2{
+    text-align: center;
+}
+.mission-text-area{
+    display: flex;
+}
+#about-my-mission .mission-box img {
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+.mission-gray-box{
+    background-color:#F6F6F6;
+}
+.mission-pink-box{
+    background-color:pink;
+}
+.mission-yellow-box{
+    background-color: #FFF4D6;
+}
+.mission-box{
+    margin:15px;
+    padding:30px;
+    border-radius: 15px;
+}
+#development-area{
+    display:flex;
+}
+.development-image {
+    width: 45%;
+}
+.development-text{
+    width:55%;
+}
+.development-image img{
+    width:100%;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    padding:20px 0px;
+}
+.mission{
+    color:#E2452B;
+}
+.year{
+    color:#F0BC19
+}
+.footer-bottom p{
+    color:#fff;
+}
