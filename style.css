@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin:0px 50px;
+    padding:0px;
 }
 section{
     margin: 50px 0px;
@@ -15,17 +16,37 @@ h3{
     font-size:26px;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
 }
-.name-color{
-    color:#E2452B;
-}
+/* About Area Start CSS*/
 #about-area{
     display: flex;
 }
 .half-width{
     width:50%;
+}
+.name-color{
+    color:#F0BC19;
+}
+#about-area .about-heading {
+    position: relative;
+}
+#about-area .about-heading h1{
+    padding-left: 20px;
+}
+#about-area .about-heading::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 11px;
+    height: 99px;
+    width: 8px;
+    background: #e2452b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .about-img img{
     width:100%;
@@ -44,11 +65,15 @@ p{
     border-radius: 10px;
     font-size: 16px;
 }
-.mission-date{
-    color:#F0BC19;
-}
+
+/* About Area End CSS*/
+
+/* Mission area start CSS*/
 #about-my-mission h2{
     text-align: center;
+}
+.mission-date{
+    color:#F0BC19;
 }
 .mission-text-area,.service-box-area{
     display: flex;
@@ -73,22 +98,31 @@ p{
     border-radius: 15px;
     width: 33.33%;
 }
-#development-area{
+/* Mission area End CSS*/
+
+
+/* Why choose me & Why Hire me start CSS*/
+#Why-choose-area{
     display:flex;
 }
-.development-image {
+#Hire-me-area{
+    display:flex;
+}
+.Why-choose-image, .Hire-me-image {
     width: 45%;
 }
-.development-text{
+.Why-choose-text,.Hire-me-text{
     width:55%;
 }
-.development-image img{
+.Why-choose-image img{
     width:100%;
 }
-
-.service-box-area{
-    display: flex;
+.Hire-me-image img{
+    width:100%;
 }
+/* Why choose me & Why Hire me start CSS*/
+
+/*Service Area Start CSS*/
 #services-area .single-service img{
     width: 80px;
     height: 80px;
@@ -96,9 +130,15 @@ p{
 .service-heading{
     text-align: center;
 }
+.service-box-area{
+    display: flex;
+}
 .service-heading span{
     color:#F0BC19;
 }
+/*Service Area End CSS*/
+
+/*Footer Start CSS*/
 footer{
     text-align: center;
     background-color: #000;
@@ -106,11 +146,12 @@ footer{
     margin:0px -50px;
 }
 .mission{
-    color:#E2452B;
+    color:#fff;
 }
 .year{
-    color:#F0BC19
+    color:#E2452B
 }
 .footer-bottom p{
     color:#fff;
 }
+/*Footer End CSS*/
