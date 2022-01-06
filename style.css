@@ -12,7 +12,7 @@ h2{
     font-size:40px;
 }
 h3{
-    font-size:30px;
+    font-size:26px;
 }
 p{
     font-size: 20px;
@@ -43,27 +43,28 @@ p{
 #about-my-mission h2{
     text-align: center;
 }
-.mission-text-area{
+.mission-text-area,.service-box-area{
     display: flex;
 }
-#about-my-mission .mission-box img {
+#about-my-mission .mission-box img{
     width: 150px;
     height: 150px;
     text-align: left;
 }
-.mission-gray-box{
+.mission-gray-box,.web-design{
     background-color:#F6F6F6;
 }
-.mission-pink-box{
+.mission-pink-box,.web-development{
     background-color:pink;
 }
-.mission-yellow-box{
+.mission-yellow-box,.seo{
     background-color: #FFF4D6;
 }
-.mission-box{
+.mission-box,.single-service{
     margin:15px;
     padding:30px;
     border-radius: 15px;
+    width: 33.33%;
 }
 #development-area{
     display:flex;
@@ -76,6 +77,20 @@ p{
 }
 .development-image img{
     width:100%;
+}
+
+.service-box-area{
+    display: flex;
+}
+#services-area .single-service img{
+    width: 80px;
+    height: 80px;
+} 
+.service-heading{
+    text-align: center;
+}
+.service-heading span{
+    color:#F0BC19;
 }
 footer{
     text-align: center;
