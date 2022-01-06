@@ -39,9 +39,9 @@ p{
     position: absolute;
     content: "";
     left: 0;
-    top: 11px;
+    top: 10px;
     height: 99px;
-    width: 8px;
+    width: 6px;
     background: #e2452b;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -83,13 +83,13 @@ p{
     height: 150px;
     text-align: left;
 }
-.mission-gray-box,.web-design{
-    background-color:#F6F6F6;
+.mission-box-one,.web-design{
+    background-color:#EDF5F6;
 }
-.mission-pink-box,.web-development{
-    background-color:pink;
+.mission-box-two,.web-development{
+    background-color:#FFEEEE;
 }
-.mission-yellow-box,.seo{
+.mission-box-three,.seo{
     background-color: #FFF4D6;
 }
 .mission-box,.single-service{
@@ -97,6 +97,9 @@ p{
     padding:30px;
     border-radius: 15px;
     width: 33.33%;
+}
+.single-service{
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2);
 }
 /* Mission area End CSS*/
 
